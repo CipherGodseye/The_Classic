@@ -1,0 +1,72 @@
+/* Start Global */
+
+body
+{
+
+}
+
+.container
+{
+    width: 1200px;
+    margin: auto;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* End Global */
+
+/* Start Navigation bar */
+
+.navbar
+{
+
+}
+
+.navbar .brand
+{
+    float: left;
+    width: 30%;
+}
+
+.navbar .brand h1
+{
+    text-transform: uppercase;
+}
+
+.navbar .links
+{
+    float: right;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.navbar .links li
+{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar .links li.active,
+.navbar .links li:hover
+{
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+}
+
+/* End Navigation bar */
+
+/* Start My Framework */
+
+.clearfix
+{
+    clear: both;
+}
+
+/* End Framework */
