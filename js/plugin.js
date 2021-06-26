@@ -20,7 +20,7 @@ $(function () {
 
     $('.links li').click(function () {
 
-        $(this).addClass('active').siblings().removeClass('active');
+        $(this).parent().addClass('active').siblings().removeClass('active');
 
     });
 
