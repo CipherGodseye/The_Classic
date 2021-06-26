@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Classic</title>
+    <!-- BxSlider Styling -->
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+
+    <!-- My Css Styling -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -19,11 +23,11 @@
             </div>
             <div class="links">
                 <ul>
-                    <li class="active">Home</li>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Testimonials</li>
-                    <li>Contact</li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#" data-value="ser">About</a></li>
+                    <li><a href="#" data-value="port">Portfolio</a></li>
+                    <li><a href="#" data-value="test">Testimonials</a></li>
+                    <li><a href="#" data-value="cont">Contact</a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -33,11 +37,51 @@
 
     <!-- End Navigation bar -->
 
+    <!-- Start Header -->
+
+    <div class="header">
+        <div class="overlay">
+            <div class="bxslider">
+                <div>
+                    <h2>Welcome To <span>Classic</span></h2>
+                    <p>This Is The 1st Testing Of The BxSlider</p>
+                </div>
+                <div>
+                    <h2>Welcome To <span>Two</span></h2>
+                    <p>This Is The 2nd Testing Of The BxSlider</p>
+                </div>
+                <div>
+                    <h2>Welcome To <span>Three</span></h2>
+                    <p>This Is The 3rd Testing Of The BxSlider</p>
+                </div>
+                <div>
+                    <h2>Welcome To <span>Four</span></h2>
+                    <p>This Is The 4th Testing Of The BxSlider</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Header -->
+
+    <!-- Start Our Services -->
+
+    <div id="ser" class="services">
+        <div class="container">
+            <h3>Our Services</h3>
+        </div>
+    </div>
+
+    <!-- End Our Services -->
+
     <!--JQuery Librery-->
     <script src="js/jquery-3.6.0.min.js"></script>
 
+    <!-- Bx Slider Plugin -->
+    <script src="js/jquery.bxslider.min.js"></script>
+
     <!--My JS Plugins-->
-    <script src="js/pluggin.js"></script>
+    <script src="js/plugin.js"></script>
 </body>
 
 </html>
