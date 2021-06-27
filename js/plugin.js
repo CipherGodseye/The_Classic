@@ -86,5 +86,17 @@ $(function () {
 
     }());
 
+    // Trigger MixItUp
+
+    var mixer = mixitup('.gallery');
+
+    // Adjuste Shuffle
+
+    $('.shuffle li').click(function () {
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+    });
+
 
 });

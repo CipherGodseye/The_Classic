@@ -320,6 +320,105 @@ ul
 
 /* End Testimonials */
 
+/* Start Our Projects */
+
+.projects
+{
+    padding: 80px 0;
+}
+
+.projects ul
+{
+    margin-top: 50px;
+}
+
+.projects ul li
+{
+    display: inline-block;
+    border: 1px solid #1abc9c;
+    color: #1abc9c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.projects ul li.active,
+.projects ul li:hover
+{
+    background-color: #1abc9c;
+    border: 2px solid #1abc9c;
+    color: #FFF;
+}
+
+.projects .gallery
+{
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.projects .gallery .row > div
+{
+    width: 32.66667%;
+    height: 175px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+}
+
+.projects .gallery .row > div .overlay
+{    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 175px;
+    background-color: rgba(26, 188, 156, 0.7);
+    text-align: center;
+    display: none;
+}
+
+.projects .gallery .row > div:hover .overlay,
+.projects .gallery .row > div:hover .likes
+{
+    display: block;
+}
+
+.projects .gallery .row > div .overlay button
+{
+    background-color: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.projects .gallery .row > div .likes
+{
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    bottom: 0px;
+    left: 275px;
+    color: #000;
+    display: none;   
+}
+
+.projects .gallery .row > div:nth-child(2)
+{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.projects .gallery .row > div img
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* End Our Projects */
+
 /* Start My Framework */
 
 .clearfix
