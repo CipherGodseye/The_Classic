@@ -1,2 +1,2 @@
 # The_Classic
-This is My First Repo for practice The Github, and to more practising Html &amp; Css.
+The Classic is a simple template made with Html, Css and JQuery.
