@@ -1,10 +1,5 @@
 /* Start Global */
 
-body
-{
-
-}
-
 .container
 {
     width: 972px; /* I Changed it From 1200px */
@@ -42,6 +37,11 @@ ul
     text-transform: uppercase;
 }
 
+.navbar .brand h1 i
+{
+    color: #1abc9c;
+}
+
 .navbar .links
 {
     float: right;
@@ -71,7 +71,7 @@ ul
 }
 
 .navbar .links li.active a,
-.navbar .links li a:hover
+.navbar .links li:hover a
 {
     color: #1abc9c;
 }
@@ -135,6 +135,14 @@ ul
 .header .bxslider div h2 span
 {
     color: #1abc9c;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a,
+.bx-wrapper .bx-pager.bx-default-pager a,
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #1abc9c;
+    color: #1abc9c;
+    margin-top: -100px;
 }
 
 /* End Header */

@@ -36,7 +36,7 @@ $(function () {
 
     mySlider.bxSlider({
 
-        pager: false
+        pager: true
 
     });
 
@@ -95,6 +95,20 @@ $(function () {
     $('.shuffle li').click(function () {
 
         $(this).addClass('active').siblings().removeClass('active');
+
+    });
+
+    // Trigger NiceScroll
+
+    $('html').niceScroll({
+
+        cursorcolor: '#1abc9c',
+
+        cursorwidth: '5px',
+
+        cursorborder: '1px solid #1abc9c',
+
+        zindex: 9999
 
     });
 
